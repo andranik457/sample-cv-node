@@ -1,0 +1,31 @@
+{
+  "name": "sample-cv",
+  "version": "1.0.0",
+  "description": "sample-cv API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andranik457/sample-cv-node.git"
+  },
+  "keywords": [
+    "nodeJs",
+    "sample-cv"
+  ],
+  "author": "Andranik Aslanyan",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/andranik457/sample-cv-node/issues"
+  },
+  "homepage": "https://github.com/andranik457/sample-cv-node#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "gridfs": "^1.0.0",
+    "gridfs-stream": "^1.1.1",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.0.12",
+    "winston": "^2.4.1"
+  }
+}
